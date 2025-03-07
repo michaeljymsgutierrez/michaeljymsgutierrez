@@ -13,34 +13,35 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: michaeljymsgutierrez
-          template: terminal
-          plugin_languages: yes
-          plugin_stargazers: no
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Manila
           plugin_followup: yes
-          plugin_stackoverflow: no
-          plugin_achievements: yes
-          plugin_achievements_ignored: influencer, follower, maintainer, contributor, explorer, octonaut
-          plugin_gists: yes
-          plugin_lines: yes
-          plugin_stars: yes
-          plugin_stars_limit: 3
-          plugin_traffic: yes
-
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
           plugin_habits: yes
+          plugin_habits_charts: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_from: 200
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
-          plugin_notable: yes
-          plugin_notable_from: all
-          plugin_notable_repositories: yes
-          plugin_notable_types: commit
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
           plugin_projects: yes
           plugin_projects_limit: 4
+          plugin_projects_repositories: michaeljymsgutierrez/projects/2
+          plugin_repositories: yes
+          plugin_repositories_order: featured, pinned, starred, random
+          plugin_repositories_pinned: 4
+          plugin_repositories_starred: 4
