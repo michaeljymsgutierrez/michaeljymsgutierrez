@@ -14,7 +14,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: michaeljymsgutierrez
           plugin_languages: yes
-          plugin_stargazers: yes
+          plugin_stargazers: no
           plugin_followup: yes
           plugin_stackoverflow: no
           plugin_achievements: yes
@@ -24,3 +24,22 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 3
           plugin_traffic: yes
+
+          plugin_followup_archived: yes
+          plugin_followup_sections: repositories
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit
+          plugin_projects: yes
+          plugin_projects_limit: 4
