@@ -42,6 +42,6 @@ jobs:
           plugin_projects_limit: 4
           plugin_projects_repositories: michaeljymsgutierrez/projects/2
           plugin_repositories: yes
-          plugin_repositories_order: featured, pinned, starred, random
+          plugin_repositories_order: pinned
           plugin_repositories_pinned: 4
           plugin_repositories_starred: 4
