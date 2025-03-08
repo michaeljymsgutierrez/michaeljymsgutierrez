@@ -1,8 +1,10 @@
+# Workflow name
 name: Metrics
 
+# Trigger workflow on schedule, workflow dispatch, or push events
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 * * * *' # Run every hour
   workflow_dispatch:
   push:
     branches:
@@ -11,20 +13,29 @@ on:
 
 jobs:
   github-metrics:
+    # Run workflow on ubuntu-latest environment
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          # Authentication token
           token: ${{ secrets.METRICS_TOKEN }}
+          # GitHub username
           user: michaeljymsgutierrez
+          # Template and base settings
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
+
+          # Follow-up plugin settings
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
+
+          # Habits plugin settings
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
@@ -33,6 +44,8 @@ jobs:
           plugin_habits_from: 200
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
+
+          # Issues and pull requests plugin settings
           plugin_issues: yes
           plugin_issues_limit: 100
           plugin_issues_sort: updated
@@ -41,6 +54,8 @@ jobs:
           plugin_pulls_limit: 100
           plugin_pulls_sort: updated
           plugin_pulls_state: all
+
+          # Languages plugin settings
           plugin_languages: yes
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 30
@@ -51,8 +66,10 @@ jobs:
           plugin_languages_recent_days: 180
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 5%
+          plugin_languages_threshold: 5% # Display languages used in at least 5% of the codebase
           plugin_languages_details: bytes-size, percentage
+
+          # Repositories plugin settings
           plugin_repositories: yes
           plugin_repositories_order: pinned, featured, starred, random
           plugin_repositories_pinned: 6
