@@ -4,7 +4,7 @@ name: Metrics
 # Trigger workflow on schedule, workflow dispatch, or push events
 on:
   schedule:
-    - cron: '0 0 * * *' # Run every 12 midnight
+    - cron: '0 * * * *' # Run every hour
   workflow_dispatch:
   push:
     branches:
