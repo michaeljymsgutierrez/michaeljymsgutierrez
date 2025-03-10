@@ -55,13 +55,3 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: A
-
-          # Languages plugin settings
-          plugin_languages: yes
-          plugin_languages_threshold: 10%
-          plugin_languages_updated: yes
-
-          # Topics plugin settings
-          plugin_topics: yes
-          plugin_topics_limit: 10
-          plugin_achievements_display: detailed
