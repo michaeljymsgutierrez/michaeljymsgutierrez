@@ -58,9 +58,9 @@ jobs:
 
           # Languages plugin settings
           plugin_languages: yes
-          plugin_languages_threshold: 4%
+          plugin_languages_threshold: 0%
           plugin_languages_sections: most-used
-          plugin_languages_colors: github
+          plugin_languages_colors: rainbow
           plugin_languages_details: percentage
           plugin_languages_categories: markup, programming
           plugin_languages_analysis_timeout: 60
