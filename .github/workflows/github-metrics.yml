@@ -33,7 +33,8 @@ jobs:
           # Follow-up plugin settings
           plugin_followup: yes
           plugin_followup_archived: yes
-          plugin_followup_sections: repositories
+          plugin_followup_sections: user
+          plugin_followup_indepth: yes
 
           # Habits plugin settings
           plugin_habits: yes
