@@ -30,8 +30,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
 
-          plugin_lines: yes
-          repositories_affiliations: owner
+          plugin_traffic: yes
 
           # Follow-up plugin settings
           plugin_followup: yes
