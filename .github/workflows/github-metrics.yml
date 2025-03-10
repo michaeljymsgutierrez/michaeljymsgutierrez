@@ -46,17 +46,17 @@ jobs:
           plugin_habits_languages_threshold: 10%
 
           # Issues and pull requests plugin settings
-          plugin_issues: yes
-          plugin_issues_limit: 100
-          plugin_issues_sort: updated
-          plugin_issues_state: all
-          plugin_pulls: yes
-          plugin_pulls_limit: 100
-          plugin_pulls_sort: updated
-          plugin_pulls_state: all
+          plugin_issues: no
+          # plugin_issues_limit: 100
+          # plugin_issues_sort: updated
+          # plugin_issues_state: all
+          # plugin_pulls: yes
+          # plugin_pulls_limit: 100
+          # plugin_pulls_sort: updated
+          # plugin_pulls_state: all
 
           # Languages plugin settings
-          plugin_languages: yes
+          plugin_languages: no
           plugin_languages_limit: 4
           plugin_languages_threshold: 10%
           # plugin_languages_include: javascript, typescript, svelte, bash
