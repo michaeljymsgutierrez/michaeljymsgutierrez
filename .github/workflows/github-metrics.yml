@@ -66,7 +66,7 @@ jobs:
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 15
           plugin_languages_limit: 8
-          plugin_languages_other: yes
+          plugin_languages_other: no
           plugin_languages_indepth: yes
           plugin_languages_indepth_custom: michaeljymsgutierrez/arm-js-library, michaeljymsgutierrez/geohash-map-explorer, michaeljymsgutierrez/bashrc-cg, michaeljymsgutierrez/qrcode-generator-source-code
 
