@@ -70,7 +70,7 @@ jobs:
           # plugin_languages_indepth: yes
           # plugin_languages_recent_days: 180
           # plugin_languages_recent_load: 300
-          # plugin_languages_details: bytes-size, percentage
+          plugin_languages_details: bytes-size, percentage
 
           # Repositories plugin settings
           plugin_repositories: yes
