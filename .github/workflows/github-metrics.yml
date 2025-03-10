@@ -70,3 +70,6 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_ignored: vim script, css, html, scss, tsx, jsx
           plugin_languages_indepth_custom: michaeljymsgutierrez/arm-js-library, michaeljymsgutierrez/geohash-map-explorer, michaeljymsgutierrez/bashrc-cg, michaeljymsgutierrez/qrcode-generator-source-code, michaeljymsgutierrez/kml-extractor-source-code, michaeljymsgutierrez/git-messenger-webhook
+
+          # Traffic plugin settings
+          plugin_traffic: yes
