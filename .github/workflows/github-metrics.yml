@@ -28,14 +28,16 @@ jobs:
           # Template and base settings
           template: classic
           base: header, activity, community, repositories, metadata
+          base_indepth: yes
           config_timezone: Asia/Manila
-          repositories: 6
+
+          # repositories: 6
           repositories_forks: no
           repositories_affiliations: owner, collaborator
           commits_authoring: michaeljymsgutierrez
 
           plugin_traffic: yes
-          base_indepth: yes
+          plugin_traffic_repository: michaeljymsgutierrez/arm-js-library, michaeljymsgutierrez/geohash-map-explorer, michaeljymsgutierrez/bashrc-cg, michaeljymsgutierrez/qrcode-generator-source-code, michaeljymsgutierrez/kml-extractor-source-code, michaeljymsgutierrez/git-messenger-webhook
 
           # Follow-up plugin settings
           plugin_followup: yes
