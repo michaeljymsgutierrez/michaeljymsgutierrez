@@ -17,12 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    supports:
-      - user
-      - organization
-      - repository
-    scopes:
-      - repo
 
     steps:
       - uses: lowlighter/metrics@latest
@@ -35,6 +29,8 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
+          repositories: 20
+          repositories_affiliations: owner, collaborator
 
           plugin_traffic: yes
           base_indepth: yes
