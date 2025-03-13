@@ -17,6 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    supports:
+      - user
+      - organization
+      - repository
+    scopes:
+      - repo
 
     steps:
       - uses: lowlighter/metrics@latest
