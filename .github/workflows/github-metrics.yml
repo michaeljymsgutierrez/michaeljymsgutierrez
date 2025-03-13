@@ -29,7 +29,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Manila
-          repositories: 10
+          repositories: 6
           repositories_forks: no
           repositories_affiliations: owner, collaborator
           commits_authoring: michaeljymsgutierrez
