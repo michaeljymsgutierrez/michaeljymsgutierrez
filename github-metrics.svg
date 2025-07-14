@@ -934,12 +934,12 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">TSX</span>
-                                <div class="bar" style="width: 23.438261075790606%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="width: 22.972767801686658%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 <span class="value">29%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">TypeScript</span>
-                                <div class="bar" style="width: 13.269239539911158%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 13.354497062382391%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">17%</span>
                             </div>
                         </div>
@@ -966,7 +966,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 15 Jul 2025, 01:19:56 (timezone Asia/Manila) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 15 Jul 2025, 02:31:36 (timezone Asia/Manila) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
