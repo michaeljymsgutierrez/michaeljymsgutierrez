@@ -203,7 +203,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"/>
                                     </svg>
-                                    88 views in last two weeks
+                                    89 views in last two weeks
                                 </div>
                             </section>
                         </div>
@@ -322,20 +322,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 330mb of code in 26239 edited files across 1400 commits</small>
+                <small>estimation from 330mb of code in 26240 edited files across 1401 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="390.2961778933539" height="8" fill="#ff0000"/>
-                    <rect mask="url(#languages-bar)" x="390.2961778933539" y="0" width="24.273162189454904" height="8" fill="#ffa500"/>
-                    <rect mask="url(#languages-bar)" x="414.5693400828089" y="0" width="18.6565394065664" height="8" fill="#ffff00"/>
-                    <rect mask="url(#languages-bar)" x="433.22587948937525" y="0" width="11.703856002556284" height="8" fill="#008000"/>
-                    <rect mask="url(#languages-bar)" x="444.9297354919315" y="0" width="7.682271924798306" height="8" fill="#0000ff"/>
-                    <rect mask="url(#languages-bar)" x="452.61200741672985" y="0" width="3.4259301047288413" height="8" fill="#4b0082"/>
-                    <rect mask="url(#languages-bar)" x="456.0379375214587" y="0" width="2.750344624289543" height="8" fill="#ee82ee"/>
-                    <rect mask="url(#languages-bar)" x="458.7882821457482" y="0" width="1.2117178542517753" height="8" fill="#162221"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="390.1607717286637" height="8" fill="#ff0000"/>
+                    <rect mask="url(#languages-bar)" x="390.1607717286637" y="0" width="24.264741057035117" height="8" fill="#ffa500"/>
+                    <rect mask="url(#languages-bar)" x="414.42551278569886" y="0" width="18.809655498126997" height="8" fill="#ffff00"/>
+                    <rect mask="url(#languages-bar)" x="433.23516828382583" y="0" width="11.699795562451678" height="8" fill="#008000"/>
+                    <rect mask="url(#languages-bar)" x="444.9349638462775" y="0" width="7.679606700191036" height="8" fill="#0000ff"/>
+                    <rect mask="url(#languages-bar)" x="452.61457054646854" y="0" width="3.4247415405505244" height="8" fill="#4b0082"/>
+                    <rect mask="url(#languages-bar)" x="456.0393120870191" y="0" width="2.7493904422138646" height="8" fill="#ee82ee"/>
+                    <rect mask="url(#languages-bar)" x="458.788702529233" y="0" width="1.2112974707670678" height="8" fill="#162221"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -347,7 +347,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>84.85%</div>
+                                <div>84.82%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -358,7 +358,7 @@
                                 GLSL
                             </div>
                             <small>
-                                <div>4.06%</div>
+                                <div>4.09%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -393,7 +393,7 @@
                                 Classic ASP
                             </div>
                             <small>
-                                <div>5.28%</div>
+                                <div>5.27%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -756,7 +756,7 @@
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 33.3 characters per line of code written</li>
+                        <li>Has approximately 33.4 characters per line of code written</li>
                         <li>Mostly pushes code around 18:00</li>
                         <li>Mostly active on Wednesday</li>
                     </ul>
@@ -837,8 +837,8 @@
                             13
                         </div>
                         <div class="entry">
-                            <span class="value">6</span>
-                            <div class="bar" style="height: 21.428571428571427px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">7</span>
+                            <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                             14
                         </div>
                         <div class="entry">
@@ -862,8 +862,8 @@
                             18
                         </div>
                         <div class="entry">
-                            <span class="value">4</span>
-                            <div class="bar" style="height: 14.285714285714285px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                            <span class="value">3</span>
+                            <div class="bar" style="height: 10.714285714285714px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             19
                         </div>
                         <div class="entry">
@@ -934,13 +934,13 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">GLSL</span>
-                                <div class="bar" style="width: 38.08150601777604%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">48%</span>
+                                <div class="bar" style="width: 39.269389093293505%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">49%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">JavaScript</span>
-                                <div class="bar" style="width: 12.533760997616872%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">16%</span>
+                                <div class="bar" style="width: 12.185202724855198%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">15%</span>
                             </div>
                         </div>
                     </section>
@@ -966,7 +966,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 13 Oct 2025, 19:17:26 (timezone Asia/Manila) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 13 Oct 2025, 20:40:27 (timezone Asia/Manila) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
